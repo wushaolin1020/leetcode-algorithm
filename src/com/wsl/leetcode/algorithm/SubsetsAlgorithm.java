@@ -52,7 +52,7 @@ public class SubsetsAlgorithm {
     }
 
     /**
-     * 迭代算法：用0和1分别表示元素是否在子集，https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
+     * 迭代算法：用0和1分别表示元素是否在子集，参考：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
      * 
      * @param nums
      */
