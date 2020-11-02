@@ -69,8 +69,8 @@ public class WordSearchAlgorithm {
                     }
                 }
             }
-            visited[i][j] = false;
         }
+        visited[i][j] = false;
         return result;
     }
 
