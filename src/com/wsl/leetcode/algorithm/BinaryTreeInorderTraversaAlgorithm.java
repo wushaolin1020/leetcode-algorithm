@@ -61,15 +61,11 @@ public class BinaryTreeInorderTraversaAlgorithm {
         TreeNode leftNode = node.left;
         TreeNode rightNode = node.right;
 
-        if (leftNode != null) {
-            traversal(leftNode);
-        }
+        traversal(leftNode);
 
         resultList.add(node.val);
 
-        if (rightNode != null) {
-            traversal(rightNode);
-        }
+        traversal(rightNode);
 
     }
 
