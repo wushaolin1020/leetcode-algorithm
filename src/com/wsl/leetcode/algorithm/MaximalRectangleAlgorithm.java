@@ -65,7 +65,7 @@ public class MaximalRectangleAlgorithm {
                 if (matrix[i][j] == '1') {
                     right[j] = Math.min(right[j], cur_right);
                 } else {
-                    cur_right = j - 1;
+                    cur_right = j;
                     right[j] = n;
                 }
             }

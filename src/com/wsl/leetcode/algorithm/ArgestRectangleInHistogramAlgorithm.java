@@ -15,7 +15,7 @@ import java.util.Stack;
  *
  * 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/largest-rectangle-in-histogram 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LargestRectangleAreaAlgorithm {
+public class ArgestRectangleInHistogramAlgorithm {
 
     /**
      * 核心思想：针对每一个柱子的高度，分别计算左边与右边小于该柱子的高度的下标，然后遍历数组计算最大值
@@ -52,7 +52,7 @@ public class LargestRectangleAreaAlgorithm {
 
     public static void main(String[] args) {
         int[] heights = {2, 1, 5, 6, 2, 3};
-        LargestRectangleAreaAlgorithm largestRectangleAreaAlgorithm = new LargestRectangleAreaAlgorithm();
+        ArgestRectangleInHistogramAlgorithm largestRectangleAreaAlgorithm = new ArgestRectangleInHistogramAlgorithm();
         System.out.println(largestRectangleAreaAlgorithm.largestRectangleArea(heights));
     }
 
