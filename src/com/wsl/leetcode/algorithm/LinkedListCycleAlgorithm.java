@@ -51,7 +51,7 @@ public class LinkedListCycleAlgorithm {
         return true;
     }
 
-    class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
 
@@ -59,5 +59,17 @@ public class LinkedListCycleAlgorithm {
             val = x;
             next = null;
         }
+    }
+
+    public static void main(String[] args) {
+        ListNode head = new ListNode(1);
+        ListNode node1 = new ListNode(2);
+        head.next = node1;
+        ListNode node2 = new ListNode(2);
+        node1.next = node2;
+        node2.next = head;
+        LinkedListCycleAlgorithm linkedListCycleAlgorithm = new LinkedListCycleAlgorithm();
+        System.out.println(linkedListCycleAlgorithm.hasCycleBySpeedPointer(head));
+
     }
 }
