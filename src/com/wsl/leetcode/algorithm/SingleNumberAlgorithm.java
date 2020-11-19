@@ -11,13 +11,16 @@ package com.wsl.leetcode.algorithm;
  *
  * 示例 1:
  *
- * 输入: [2,2,1] 输出: 1
- * 
- * 示例2:
+ * 输入: [2,2,1]
+ * 输出: 1
+ * 示例 2:
  *
- * 输入: [4,1,2,1,2] 输出: 4
+ * 输入: [4,1,2,1,2]
+ * 输出: 4
  *
- * 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/single-number 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/single-number
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class SingleNumberAlgorithm {
 

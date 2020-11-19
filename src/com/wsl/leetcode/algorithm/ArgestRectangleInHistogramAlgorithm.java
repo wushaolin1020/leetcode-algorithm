@@ -9,11 +9,9 @@ import java.util.Stack;
  *
  * 求在该柱状图中，能够勾勒出来的矩形的最大面积。
  *
- * 示例:
- *
- * 输入: [2,1,5,6,2,3] 输出: 10
- *
- * 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/largest-rectangle-in-histogram 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/largest-rectangle-in-histogram
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class ArgestRectangleInHistogramAlgorithm {
 
