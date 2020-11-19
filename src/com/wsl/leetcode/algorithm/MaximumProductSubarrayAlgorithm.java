@@ -1,0 +1,28 @@
+package com.wsl.leetcode.algorithm;
+
+/**
+ * 乘积最大子数组
+ *
+ * 给你一个整数数组 nums，请你找出数组中乘积最大的连续子数组（该子数组中至少包含一个数字），并返回该子数组所对应的乘积。
+ *
+ * 来源：力扣（LeetCode） 链接：https://leetcode-cn.com/problems/maximum-product-subarray 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ */
+public class MaximumProductSubarrayAlgorithm {
+
+    /**
+     * 最小值、最大值、当前值三者对比
+     * 
+     * @param nums
+     * @return
+     */
+    public int maxProduct(int[] nums) {
+        int max = nums[0], iMin = nums[0], iMax = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            int imn = iMin, imx = iMax;
+            iMin = Math.min(imn * nums[i], Math.min(imx * nums[i], nums[i]));
+            iMax = Math.max(imx * nums[i], Math.max(imn * nums[i], nums[i]));
+            max = Math.max(max, iMax);
+        }
+        return max;
+    }
+}
