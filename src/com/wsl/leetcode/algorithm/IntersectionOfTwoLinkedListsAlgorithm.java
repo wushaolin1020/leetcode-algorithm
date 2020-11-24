@@ -14,6 +14,12 @@ import java.util.Map;
  */
 public class IntersectionOfTwoLinkedListsAlgorithm {
 
+    /**
+     * 双指针同时遍历链表A+链表B，找到交点
+     * @param headA
+     * @param headB
+     * @return
+     */
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) {
             return null;
