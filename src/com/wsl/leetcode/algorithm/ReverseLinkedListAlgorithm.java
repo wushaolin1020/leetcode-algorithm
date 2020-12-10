@@ -1,11 +1,5 @@
 package com.wsl.leetcode.algorithm;
 
-import org.bouncycastle.LICENSE;
-
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Stack;
-
 /**
  * 反转链表
  *
@@ -16,7 +10,7 @@ import java.util.Stack;
  * 输入: 1->2->3->4->5->NULL
  * 输出: 5->4->3->2->1->NULL
  */
-public class ReverseLinkedList {
+public class ReverseLinkedListAlgorithm {
 	
     public ListNode reverseList(ListNode head) {
 	    ListNode pre = null;
@@ -58,7 +52,7 @@ public class ReverseLinkedList {
 		node2.next=node3;
 		node3.next=node4;
 		
-		ReverseLinkedList reverseLinkedList = new ReverseLinkedList();
+		ReverseLinkedListAlgorithm reverseLinkedList = new ReverseLinkedListAlgorithm();
 		System.out.println(reverseLinkedList.reverseList(head));
 	}
   
